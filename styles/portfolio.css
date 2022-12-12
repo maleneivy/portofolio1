@@ -1,0 +1,152 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 1900px;
+}
+
+.left-side-of-portfolio {
+    background-color: #232323;
+    width: 70%;
+}
+
+.right-side-of-portfolio {
+    width: 30%;
+    background-color: #ff84843d;
+}
+
+.both-sides-on-portfolio {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.sections-on-left-side {
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.menu {
+    display: inline-flex;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: small-caps;
+    background-color: #FF8484;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu h3 {
+    padding: 0 30px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2.3em;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+.orange-dot {
+    color: #FFB510;
+}
+
+.hi-intro {
+    display: flex;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    font-family: temeraire, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: sofia-pro-soft, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-decoration-circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FF8484;
+}
+
+.small-decoration-circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #FF8484;
+}
+
+.introduction {
+    margin-top: 100px;
+}
+
+.introduction p {
+    line-height: 1.6;
+}
+
+.introduction h2 {
+    color: #ACACAC;
+}
+
+.skill-list {
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    color: #FFB510;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+}
+
+.skill-list li {
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.education-list {
+    color: #707070;
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 40px;
+    list-style: none;
+}
+
+.education-list li::before {
+    content: "\2022";
+    color: #FF8484;
+    width: 1.2em;
+    margin-left: -1em;
+    margin-right: 10px;
+
+}
+
+
+footer {
+    background-color: #FF8484;
+    padding-top: 50px;
+}
