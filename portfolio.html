@@ -14,6 +14,19 @@
 
 <body>
     <main>
+        <header>
+            <nav class="menu">
+                <a href="#">
+                    <h3>About</h3>
+                </a>
+                <a href="#projects">
+                    <h3>Projects</h3>
+                </a>
+                <a href="#contact">
+                    <h3>Contact</h3>
+                </a>
+            </nav>
+        </header>
         <section class="both-sides-on-portfolio">
             <section class="left-side-of-portfolio">
                 <section class="introduction sections-on-left-side">
@@ -26,7 +39,7 @@
                         years now.</p>
 
                     <p>Over the last two years I’ve been learning the art of webdesign and the fantastic technology of
-                        making responsive websites.</p>
+                        making responsive websites at Noroff.</p>
 
                 </section>
                 <section class="sections-on-left-side">
@@ -59,16 +72,49 @@
                     <div class="project-cards-container">
 
                         <div class="project-card">
-                            <img src="img/square-eyes.jpg">
+                            <img src="img/square-eyes.jpg"
+                                alt="A picture of one computer, one tablet and mobile with screenshorts og the responsive Square Eyes website">
                             <h3>The Independent Movie Site: Square Eyes</h3>
+                            <p>The website are for those who wants to purchase high-quality videos and watch
+                                it online, where main target audience are aged 25-40 with interest for cinema.</p>
+                            <div class="icon-container">
+                                <a href="https://github.com/maleneivy/squareeyesproject"><img src="img/github-mark.png"
+                                        alt="the icon for Github"></a>
+                                <a href="https://distracted-aryabhata-df16ef.netlify.app/"> <img
+                                        src="img/world-wide-web.png" alt="the icon for the world wide web">
+                                </a>
+                            </div>
                         </div>
 
                         <div class="project-card">
-                            <img src="img/community-science-museum.jpg">
+                            <img src="img/community-science-museum.jpg"
+                                alt="Picture of screenshot of the Community Science Museum website">
+                            <h3>Community Science Museum</h3>
+                            <p>The customer wanted an informative and appealing webiste for their interactive
+                                science museum, which has primary and middle school children as its target audience.</p>
+                            <div class="icon-container">
+                                <a href="https://github.com/maleneivy/csmuseum"><img src="img/github-mark.png"
+                                        alt="the icon for Github"></a>
+                                <a href="https://gallant-visvesvaraya-6a0d3c.netlify.app/"> <img
+                                        src="img/world-wide-web.png" alt="the icon for the world wide web">
+                                </a>
+                            </div>
                         </div>
 
                         <div class="project-card">
-                            <img src="img/healthy-living.jpg">
+                            <img src="img/healthy-living.jpg"
+                                alt="Picture of screenshot of the Healthy Living blog site">
+                            <h3>The Blog About healthy Recipes - Healthy Living</h3>
+                            <p>Blog site that fetches blogposts rest API from wordpress.</p>
+                            <p>The blog contains healthy recipes and its target audience are for those who wants to eat
+                                healthier and are concerned with animal welfare.</p>
+                            <div class="icon-container">
+                                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-maleneivy"><img
+                                        src="img/github-mark.png" alt="the icon for Github"></a>
+                                <a href="https://healthy-living-blog.netlify.app/"> <img src="img/world-wide-web.png"
+                                        alt="the icon for the world wide web">
+                                </a>
+                            </div>
                         </div>
 
                     </div>
@@ -79,11 +125,15 @@
 
             <section class="right-side-of-portfolio">
                 <nav class="menu">
-                    <h3>About</h3>
+                    <a href="#">
+                        <h3>About</h3>
+                    </a>
                     <a href="#projects">
                         <h3>Projects</h3>
                     </a>
-                    <h3>Contact</h3>
+                    <a href="#contact">
+                        <h3>Contact</h3>
+                    </a>
                 </nav>
 
                 <section class="image">
@@ -98,7 +148,7 @@
     <footer>
         <nav>
             <ul>
-                <h3>Contact Info</h3>
+                <h3 id="contact">Contact Info</h3>
                 <li>Twitter</li>
                 <li>LinkedIn</li>
                 <li>Discord</li>

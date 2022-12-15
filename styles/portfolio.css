@@ -3,6 +3,11 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 1900px;
+    overflow: auto;
+}
+
+header {
+    display: none;
 }
 
 .left-side-of-portfolio {
@@ -39,10 +44,20 @@ body {
     background-color: #FF8484;
     width: 100%;
     justify-content: center;
+
 }
 
 .menu h3 {
     padding: 0 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:hover {
+    background-color: #f4a5a5;
 }
 
 h1 {
@@ -152,9 +167,91 @@ p {
 
 }
 
-
 footer {
     background-color: #FF8484;
     padding-top: 50px;
     padding-bottom: 50px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+/*media tablet styles*/
+@media only screen and (min-width:927px) and (max-width:1366px) {
+
+    .right-side-of-portfolio {
+        display: none;
+    }
+
+    .left-side-of-portfolio {
+        width: 100%
+    }
+
+    header {
+        display: block;
+    }
+}
+
+/*mobile styles*/
+@media only screen and (max-width:926px) {
+
+    .right-side-of-portfolio {
+        display: none;
+    }
+
+    .left-side-of-portfolio {
+        width: 100%
+    }
+
+    header {
+        display: block;
+    }
+
+    .project-card,
+    .project-card img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .sections-on-left-side {
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
+
+/*small mobile styles*/
+@media only screen and (max-width:530px) {
+
+    nav a {
+        font-size: 0.7em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .introduction,
+    .sections-on-left-side {
+        margin: 50px 20px 30px 20px;
+        max-width: 280px;
+    }
+
+    .project-card,
+    .project-card img {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .skill-list,
+    .education-list {
+        font-size: 1.1em;
+    }
 }
