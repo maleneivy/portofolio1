@@ -5,30 +5,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/enterPage.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/projectCards.css">
     <link rel="stylesheet" href="https://use.typekit.net/bdo5kco.css">
-    <title>Enter the website for the frontend developer Malene Ivys portfolio </title>
+    <script src="https://kit.fontawesome.com/a1cf958ea2.js" crossorigin="anonymous"></script>
+    <title>Portfolio for frontend developer - Malene Ivy</title>
+
 </head>
 
 <body>
     <main>
-        <div class="container">
-            <div class="box">
+        <header>
+            <nav class="menu">
+                <a href="#">
+                    <h3>About</h3>
+                </a>
+                <a href="#projects">
+                    <h3>Projects</h3>
+                </a>
+                <a href="#contact">
+                    <h3>Contact</h3>
+                </a>
+            </nav>
+        </header>
+        <section class="portfolio-image">
 
-                <div class="title">
-                    <span class="block"></span>
-                    <h1>Malene Ivy<span></span></h1>
-                </div>
+            <img src="img/malene-ivy.jpg" alt="profile picture of malene">
 
-                <div class="role">
-                    <div class="block"></div>
-                    <p>Frontend Developer</p>
-                </div>
+        </section>
+        <section class="both-sides-on-portfolio">
+            <section class="left-side-of-portfolio">
+                <section class="introduction sections-on-left-side">
+                    <div class="big-decoration-circle"></div>
+                    <h1 class="hi-intro">Hi <div class="orange-dot">.</div>
+                    </h1>
+                    <h2>I'm Malene Ivy.</h2>
+                    <h2>And I am a frontend developer</h2>
+                    <br>
+                    <p>I am from a beautiful small place at the coast of Finnmark and has been living in Oslo for 10
+                        years now.</p>
 
-                <a class="enterPageButton" href="portfolio.html">Enter Page</a>
-            </div>
-        </div>
+                    <p>Over the last two years I’ve been learning the art of webdesign and the fantastic technology of
+                        making responsive websites at Noroff.</p>
+
+                </section>
+                <section class="sections-on-left-side">
+                    <div class="small-decoration-circle"></div>
+                    <h2>Skills</h2>
+                    <ul class="skill-list">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                        <li>adobe photoshop</li>
+                        <li>adobe xd</li>
+                        <li>adobe illustrator</li>
+                        <li>ui/ux-design</li>
+                    </ul>
+                </section>
+
+                <section class="sections-on-left-side">
+                    <div class="small-decoration-circle"></div>
+                    <h2>Education</h2>
+                    <ul class="education-list">
+                        <li>Frontend Development at Noroff</li>
+                        <li>Bachelor's Degree in Art Teacher at OsloMet </li>
+                        <li>Annual study in Communication and Media at UiA</li>
+                    </ul>
+                </section>
+
+                <section class="sections-on-left-side">
+                    <div class="small-decoration-circle"></div>
+                    <h2 id="projects">My Projects on Noroff</h2>
+                    <div class="project-cards-container">
+
+                        <div class="project-card">
+                            <img src="img/square-eyes.jpg"
+                                alt="A picture of one computer, one tablet and mobile with screenshorts og the responsive Square Eyes website">
+                            <h3>The Independent Movie Site: Square Eyes</h3>
+                            <p>The website are for those who wants to purchase high-quality videos and watch
+                                it online, where main target audience are aged 25-40 with interest for cinema.</p>
+                            <div class="icon-container">
+                                <a href="https://github.com/maleneivy/squareeyesproject"><img src="img/github-mark.png"
+                                        alt="the icon for Github"></a>
+                                <a href="https://distracted-aryabhata-df16ef.netlify.app/"> <img
+                                        src="img/world-wide-web.png" alt="the icon for the world wide web">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="img/community-science-museum.jpg"
+                                alt="Picture of screenshot of the Community Science Museum website">
+                            <h3>Community Science Museum</h3>
+                            <p>The customer wanted an informative and appealing webiste for their interactive
+                                science museum, which has primary and middle school children as its target audience.</p>
+                            <div class="icon-container">
+                                <a href="https://github.com/maleneivy/csmuseum"><img src="img/github-mark.png"
+                                        alt="the icon for Github"></a>
+                                <a href="https://gallant-visvesvaraya-6a0d3c.netlify.app/"> <img
+                                        src="img/world-wide-web.png" alt="the icon for the world wide web">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="img/healthy-living.jpg"
+                                alt="Picture of screenshot of the Healthy Living blog site">
+                            <h3>The Blog About healthy Recipes - Healthy Living</h3>
+                            <p>Blog site that fetches blogposts rest API from wordpress.</p>
+                            <p>The blog contains healthy recipes and its target audience are for those who wants to eat
+                                healthier and are concerned with animal welfare.</p>
+                            <div class="icon-container">
+                                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-maleneivy"><img
+                                        src="img/github-mark.png" alt="the icon for Github"></a>
+                                <a href="https://healthy-living-blog.netlify.app/"> <img src="img/world-wide-web.png"
+                                        alt="the icon for the world wide web">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </section>
+            </section>
+
+            <section class="right-side-of-portfolio">
+                <nav class="menu">
+                    <a href="#">
+                        <h3>About</h3>
+                    </a>
+                    <a href="#projects">
+                        <h3>Projects</h3>
+                    </a>
+                    <a href="#contact">
+                        <h3>Contact</h3>
+                    </a>
+                </nav>
+
+                <section class="image">
+
+                </section>
+
+            </section>
+
+        </section>
     </main>
+
+    <footer>
+        <h3 id="contact">Contact Info</h3>
+        <nav>
+            <ul>
+                <li><a href="https://twitter.com/maleneiolsen">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/maleneivyolsen/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <h3 class="copyright">Made by @maleneivy</h3>
+    </footer>
 </body>
+
 
 </html>
