@@ -6,6 +6,18 @@ body {
     overflow: auto;
 }
 
+.portfolio-image {
+    top: 15%;
+    left: 65%;
+    position: absolute;
+    box-shadow: 20px 10px 40px 20px #8f66668c;
+    border-radius: 30%;
+}
+
+.portfolio-image img {
+    border-radius: 30%;
+}
+
 header {
     display: none;
 }
@@ -171,7 +183,7 @@ footer {
     background-color: #FF8484;
     padding-top: 50px;
     padding-bottom: 50px;
-    max-width: 1800px;
+    max-width: 1700px;
     margin: 0 auto;
     padding-left: 100px;
 }
@@ -213,6 +225,10 @@ footer a:hover {
     header {
         display: block;
     }
+
+    .portfolio-image {
+        display: none;
+    }
 }
 
 /*mobile styles*/
@@ -223,7 +239,8 @@ footer a:hover {
     }
 
     .left-side-of-portfolio {
-        width: 100%
+        width: 100%;
+        padding-top: 50px;
     }
 
     header {
@@ -255,10 +272,18 @@ footer a:hover {
         padding: 10px 0;
     }
 
+    .portfolio-image {
+        display: none;
+    }
+
 }
 
 /*small mobile styles*/
 @media only screen and (max-width:530px) {
+
+    main {
+        overflow: hidden;
+    }
 
     nav a {
         font-size: 0.7em;
@@ -290,7 +315,7 @@ footer a:hover {
     .project-card,
     .project-card img {
         width: 100%;
-        max-width: 280px;
+        max-width: 230px;
     }
 
     .skill-list,
